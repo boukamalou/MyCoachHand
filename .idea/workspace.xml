@@ -10,19 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b4009b-5984-4e40-856b-f95a5639cc3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb3f8c08-1b11-46c4-8530-2427a50f15e3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb3f8c08-1b11-46c4-8530-2427a50f15e3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reservation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reservation.iml" afterDir="false" />
+    <list default="true" id="54b4009b-5984-4e40-856b-f95a5639cc3d" name="Default Changelist" comment="ajout de la route Home et de la relation manytomany">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200930170312.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200921094845.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200930161419.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200930075537.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200930135424.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventSubscriber/CalendarSubscriber.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/AppUserAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/AppUserAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,8 +183,16 @@
       <workItem from="1598360487306" duration="209000" />
       <workItem from="1600304844073" duration="4743000" />
       <workItem from="1601481743312" duration="490000" />
-      <workItem from="1601482262547" duration="854000" />
+      <workItem from="1601482262547" duration="3094000" />
     </task>
+    <task id="LOCAL-00001" summary="ajout de la route Home et de la relation manytomany">
+      <created>1601483414628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601483414628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ajout de la route Home et de la relation manytomany" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de la route Home et de la relation manytomany" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="439" key="#Composer" timestamp="1597937502095">
@@ -241,6 +250,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="783" y="482" key="NewPhpFileDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1597938667772" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1601483427761">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601483427761" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
