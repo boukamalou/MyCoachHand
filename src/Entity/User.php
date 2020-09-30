@@ -43,6 +43,11 @@ class User implements UserInterface
      */
     private $messages;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $team;
+
 
 
     public function __construct()
@@ -152,6 +157,18 @@ class User implements UserInterface
             $this->messages->removeElement($message);
             $message->removeTag($this);
         }
+
+        return $this;
+    }
+
+    public function getTeam(): ?string
+    {
+        return $this->team;
+    }
+
+    public function setTeam(string $team): self
+    {
+        $this->team = $team;
 
         return $this;
     }
