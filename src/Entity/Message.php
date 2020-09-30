@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\MessageRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -43,14 +45,17 @@ class Message
     private $updatedBy;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\ManyToMany(targetEntity=User::class, inversedBy="messages")
      */
-    private $ManyToMany;
+    private $tag;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $relation;
+    public function __construct()
+    {
+        $this->tag = new ArrayCollection();
+    }
+
+
+
 
     public function getId(): ?int
     {
@@ -116,4 +121,35 @@ class Message
 
         return $this;
     }
+
+    /**
+     * @return Collection|User[]
+     */
+    public function getTag(): Collection
+    {
+        return $this->tag;
+    }
+
+    public function addTag(User $tag): self
+    {
+        if (!$this->tag->contains($tag)) {
+            $this->tag[] = $tag;
+        }
+
+        return $this;
+    }
+
+    public function removeTag(User $tag): self
+    {
+        if ($this->tag->contains($tag)) {
+            $this->tag->removeElement($tag);
+        }
+
+        return $this;
+    }
+
+
+
+
+
 }

@@ -11,44 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b4009b-5984-4e40-856b-f95a5639cc3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/reservation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/calendar.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200820154427.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/adversaire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/balle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/coach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/passeur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/terrain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BoardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BookingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RouteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Booking.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/CalendarSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/BookingType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/BookingRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base2.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/board/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/calendar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/booking/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb3f8c08-1b11-46c4-8530-2427a50f15e3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb3f8c08-1b11-46c4-8530-2427a50f15e3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reservation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reservation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200921094845.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200930161419.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200930075537.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200930135424.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/tattali/calendar-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gMvlo8WCkO8Q5XHpQNOLbezDpE" />
@@ -180,7 +155,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -209,6 +183,8 @@
       <workItem from="1598268963677" duration="78000" />
       <workItem from="1598360487306" duration="209000" />
       <workItem from="1600304844073" duration="4743000" />
+      <workItem from="1601481743312" duration="490000" />
+      <workItem from="1601482262547" duration="854000" />
     </task>
     <servers />
   </component>
@@ -243,18 +219,24 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="702" y="382" key="#Notifications/0.23.1920.1057@0.23.1920.1057" timestamp="1597937860981" />
-    <state x="560" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597937925815">
+    <state x="560" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601482709822">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="560" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1597937925815" />
+    <state x="560" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601482536475" />
+    <state x="560" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601482709822" />
+    <state x="698" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601482379634">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1601482379634" />
     <state x="698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597939031038">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1597939031038" />
-    <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1597937722687">
+    <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1601482644219">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="221" height="457" key="HiddenNamespacesPopup/0.23.1920.1057@0.23.1920.1057" timestamp="1597937722687" />
+    <state width="221" height="467" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1601482507185" />
+    <state width="221" height="457" key="HiddenNamespacesPopup/0.23.1920.1057@0.23.1920.1057" timestamp="1601482644219" />
     <state x="783" y="482" key="NewPhpFileDialog" timestamp="1597938667772">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
