@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des évenements{% endblock %}
+
+{% block body %}
+
+        <h1>Evenements programmés</h1>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Commence à </th>
+                <th>Fini à </th>
+                <th>Intitulé</th>
+                <th>administration</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for booking in bookings %}
+                <tr>
+                    <td>{{ booking.beginAt ? booking.beginAt|date('Y-m-d H:i:s') : '' }}</td>
+                    <td>{{ booking.endAt ? booking.endAt|date('Y-m-d H:i:s') : '' }}</td>
+                    <td>{{ booking.title }}</td>
+                    <td>
+                        <a href="{{ path('booking_show', {'id': booking.id}) }}">montrer</a>
+                        <a href="{{ path('booking_edit', {'id': booking.id}) }}">éditer</a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="5">Pas d'évenement programmé</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+
+{% endblock %}
